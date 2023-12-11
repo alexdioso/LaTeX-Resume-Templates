@@ -48,16 +48,14 @@
 	\IfSubStr{\temp}{project}{
 		\PackageError{twocolumn}{Do not use the word 'project' in a project title.}{ATS Systems don't seem to parse project names with the word 'project' in them.}
 	}{
-		\textbf{#1}
+		\href{#2}{\textbf{#1}}
+	
+		\textit{#3}
+
+		#4
+
+		\medskip
 	}
-	
-	\href{https://#2}{#2}
-	
-	\textit{#3}
-
-	#4
-
-	\medskip
 }
 
 \renewcommand{\skill}[1]{
