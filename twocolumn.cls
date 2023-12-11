@@ -26,6 +26,7 @@
 
 	\textit{#2}\hfill\textit{#3}
 
+	\smallskip
 	#4
 	\medskip
 }
