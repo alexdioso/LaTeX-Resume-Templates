@@ -91,6 +91,7 @@
 
 	\href{mailto:\@email}{\@email} • \href{https://\@personalurl}{\@personalurl} • \href{tel:\@personalphone}{\@personalphone}
 	\end{center}
+	\begin{flushleft}
 	\bigskip
 
 	\begin{minipage}[t]{0.65\linewidth}
@@ -118,5 +119,6 @@
 
 	\end{minipage}
 
+	\end{flushleft}
 	\end{document}
 }
